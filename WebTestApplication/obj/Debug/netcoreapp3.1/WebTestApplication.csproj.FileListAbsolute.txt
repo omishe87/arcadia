@@ -87,7 +87,6 @@ C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\bin\Deb
 C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\bin\Debug\netcoreapp3.1\WebTestApplication.runtimeconfig.dev.json
 C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\bin\Debug\netcoreapp3.1\WebTestApplication.dll
 C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\bin\Debug\netcoreapp3.1\WebTestApplication.pdb
-C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\obj\Debug\netcoreapp3.1\WebTestApplication.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\obj\Debug\netcoreapp3.1\WebTestApplication.dll
 C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\obj\Debug\netcoreapp3.1\WebTestApplication.pdb
 C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\bin\Debug\netcoreapp3.1\WebTestApplication.Views.dll
@@ -109,3 +108,4 @@ C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\bin\Deb
 C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
 C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
