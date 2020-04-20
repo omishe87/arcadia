@@ -2,7 +2,6 @@ C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\bin\Deb
 C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\bin\Debug\netcoreapp3.1\WebTestApplication.exe
-C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\obj\Debug\netcoreapp3.1\WebTestApplication.csprojAssemblyReference.cache
 C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\obj\Debug\netcoreapp3.1\staticwebassets\WebTestApplication.StaticWebAssets.Manifest.cache
 C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\obj\Debug\netcoreapp3.1\staticwebassets\WebTestApplication.StaticWebAssets.xml
 C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\obj\Debug\netcoreapp3.1\WebTestApplication.AssemblyInfoInputs.cache
@@ -141,3 +140,4 @@ C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\bin\Deb
 C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\obj\Debug\netcoreapp3.1\WebTestApplication.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\roman.efimov\source\repos\WebTestApplication\WebTestApplication\obj\Debug\netcoreapp3.1\WebTestApplication.csprojAssemblyReference.cache

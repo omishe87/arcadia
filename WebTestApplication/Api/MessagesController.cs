@@ -10,18 +10,43 @@ namespace WebTestApplication.Api
     [ApiController]
     public class MessagesController : ControllerBase
     {
+        private readonly Models.CrudExampleContext _context;
+
+        public MessagesController(Models.CrudExampleContext context)
+            {
+                _context = context;
+            }
+
         [HttpGet]
         public IActionResult Get()
         {
-            var result = _context.
+            var result = _context.Messages.Where(m => m.IsDeleted.HasValue && !m.IsDeleted.Value).ToList();
+            return Ok(result);
+        } 
+        
+        [HttpGet ("{id}", Name = "Get")]
+        public IActionResult Get (int id)
+        {
+            var result = _context.Messages.Where(m => m.Id == id);
             return Ok(result);
         }
+
+        [HttpPut ("(id)")]
+        public IActionResult Put (int id, [FromForm] string value)
+        {
+            if(!_context.Messages.Any(m=>m.Id == id))
+            {
+                return NotFound();
+            }
+            var message = _context.Messages.Where(m => m.Id == id).Single();
+            message.Message = value;
+            _context.Update(message);
+            _context.SaveChanges();
+            return Ok();
+        }
+
+
     }
 
-    private readonly Models.CrudExampleContext ;
-
-    public MessagesController(Models.CrudExampleContext context)
-    {
-        _context = context;
-    }
+    
 }
