@@ -1,0 +1,46 @@
+﻿@model IEnumerable<WebTestApplication.Models.Messages>
+
+@{
+    ViewData["Title"] = "ListMessages";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>ListMessages</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Message)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsDeleted)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) { 
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model => model.Date)
+            </td>
+            <td>
+                @Html.DisplayNameFor(model => model.Message)
+            </td>
+            <td>
+                @Html.DisplayNameFor(model => model.IsDeleted)
+            </td>
+            <td>
+                <a asp-action="Detaiils" asp-route-id="@item.ID">Details</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

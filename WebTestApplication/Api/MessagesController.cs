@@ -45,6 +45,35 @@ namespace WebTestApplication.Api
             return Ok();
         }
 
+        [HttpPost]
+        public IActionResult Post ([FromForm] string value)
+        {
+            var message = new Models.Messages
+            {
+                Date = DateTime.Now,
+                Message = value
+            };
+
+            _context.Messages.Add(message);
+            _context.SaveChanges();
+
+            return Ok(message);
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete (int id)
+        {
+            if (!_context.Messages.Any(m => m.Id == id))
+            {
+                return NotFound();
+            }
+
+            var message = _context.Messages.Where(m => m.Id == id).Single();
+            message.IsDeleted = true;
+            _context.Update(message);
+            _context.SaveChanges();
+            return Ok();
+        }
 
     }
 
